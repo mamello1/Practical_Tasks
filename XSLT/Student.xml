@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<?xml-stylesheet type = "text/xsl" href = "Student.xsl"?>
+
+<class>
+
+<student id = "001">
+<name>Mamello</name>
+<surname>Mitane</surname>
+<firstmark>48</firstmark>
+<secondmark>72</secondmark>
+<average></average>
+</student>
+
+<student id = "002">
+<name>Thabang</name>
+<surname>Peters</surname>
+<firstmark>88</firstmark>
+<secondmark>52</secondmark>
+<average></average>
+</student>
+
+<student id = "003">
+<name>June</name>
+<surname>Apryls</surname>
+<firstmark>67</firstmark>
+<secondmark>96</secondmark>
+<average></average>
+</student>
+
+</class>
+

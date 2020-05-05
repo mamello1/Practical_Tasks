@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<?xml-stylesheet type = "text/xsl" href ="Employee_Import.xsl" ?>
+<class>
+<employee id = "001">
+<firstname>Lebo</firstname>
+<lastname>Gupta</lastname>
+<nickname>Raju</nickname>
+<salary>3000</salary>
+</employee>
+<employee id = "002">
+<firstname>Sarah</firstname>
+<lastname>Khan</lastname>
+<nickname>Zoya</nickname>
+<salary>34000</salary>
+</employee>
+<employee id = "003">
+<firstname>Peter</firstname>
+<lastname>Griffin</lastname>
+<nickname>John</nickname>
+<salary>12000</salary>
+</employee>
+</class>
+
