@@ -1,0 +1,29 @@
+<?xml = "1.0" encoding = "UTF-8"?>
+
+<classroom>
+
+   <student id = "393">// root element node
+		<course lang = "en">Computer Science</course>
+		<firstname>Mamello</firstname>
+		<lastname>Mamsy</lastname>
+		<age>20</age>
+		<marks>85</marks>
+   </student>
+   
+   <student id = "493">
+		<course lang = "en">Human Resources</course>
+		<firstname>Tom</firstname>
+		<lastname>Tommy</lastname>  
+		<age>29</age>
+		<marks>95</marks>
+   </student>
+   
+   <student id = "593">
+		<course lang = "en">Biology</course>
+		<firstname>Elvis</firstname>
+		<lastname>Elf</lastname> 
+		<age>34</age>
+		<marks>90</marks>
+   </student>
+   
+</classroom>

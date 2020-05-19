@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<title>Student XPath Example</title>
+
+<body>
+
+<p id = "example"></p>
+
+<script>
+
+	var xhttp = new XMLHttpRequest();
+	
+	xhttp.onreadystatechange = function(){
+	
+		if(this.readyState == 4 && this.status == 200){
+		
+			showResult(xhttp.responseXML);
+		
+		}
+	
+	};
+	
+	
+	xhttp.open("GET","Student_XPath.xml",true);
+	xhttp.send();
+
+	
+	function showResult(xml){
+	
+	
+		var file = "";
+		
+		path = "/classroom/student/course"
+		
+		if(xml.evaluate){
+		
+			var nodes = xml.evaluate(path,xml,null,XPathResult.ANY_TYPE,null);
+		
+		var result = nodes.iterateNext();
+		
+		while(result){
+		
+		file += result.childNodes[0].nodeValue + "<br>";
+		result = nodes.iterateNext();
+		
+		}
+		
+		}
+		
+		else if(window.ActiveXObject || xhttp.responseType == "msxml-document"){
+		
+		xml.setProperty("SelectionLanguage","XPath");
+		nodes = xml.selectNodes(path);
+		
+		for( i = 0; i < nodes.length; i++){
+		
+			file += nodes[i].childNodes[0].nodeValue +  "<br>";
+		}
+	
+		}
+		
+			document.getElementById("example").innerHTML = file;
+		}
+	
+
+</script>
+
+</body>
+
+</html>

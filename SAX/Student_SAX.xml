@@ -1,0 +1,20 @@
+
+<class>
+   <student id = "393">
+      <firstname>dinkar</firstname>
+      <lastname>kad</lastname>    
+      <marks>85</marks>
+   </student>
+   
+   <student id = "493">
+      <firstname>Vaneet</firstname>
+      <lastname>Gupta</lastname>    
+      <marks>95</marks>
+   </student>
+   
+   <student id = "593">
+      <firstname>jasvir</firstname>
+      <lastname>singn</lastname>     
+      <marks>90</marks>
+   </student>
+</class>
